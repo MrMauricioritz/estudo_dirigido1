@@ -1,12 +1,12 @@
 <? php
 
-print "Salário atual:";
-$ Salario = fgets (STDIN);
-print "Porcentagem do aumento:";
-$ Porcentagem_de_aumento = fgets (STDIN);
+print "salário atual:";
+    $salario = fgets (STDIN);
+ print "porcentagem do aumento:";
+    $porcentagem_aumento = fgets (STDIN);
 
-    $ Aumento_do_salario = $ Salario * ($ Porcentagem_de_aumento / 100);
-    $ Salario_novo = $ Salario + $ Aumento_do_salario;
+    $aumento_salario = $salario * ($porcentagem_aumento / 100);
+    $salario_novo = $salario + $aumento_salario;
 
-print "Valor ao salário: $ Aumento_do_salario \ n";
-print "Salário novo: $ Salario_novo";
+print "valor ao salário: $aumento_salario \ n";
+print "salário novo: $salario_novo";
