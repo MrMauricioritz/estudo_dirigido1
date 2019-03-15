@@ -1,8 +1,8 @@
 <? php
 
-  print "Escreva uma medida em metros:";
-$ medida_metros = fgets (STDIN);
+    print "digite uma medida em metros:";
+$medi_metros = fgets (STDIN);
 
-$ medida_milimetros = $ medida_metros / 1000;
+$medi_milimetros = $medi_metros / 1000;
 
-  print "Uma medida escolhida, em milimetros, equivalente a: $ medida_milimetros";
+    print "Uma medida escolhida, em milimetros, equivalente a: $medi_milimetros";
