@@ -1,12 +1,12 @@
 <? php
 
-print "Valor da mercadoria:";
-  $ Valor_mercadoria = fgets (STDIN); 
-print "Porcentual de desconto:";
-$ Porcentual_desconto = fgets (STDIN);
+print "valor da mercadoria:";
+    $valor_mercadoria = fgets (STDIN); 
+print "porcentual do desconto:";
+    $porcentual_descont = fgets (STDIN);
 
-    $ Desconto = $ Valor_mercadoria * ($ Porcentual_desconto / 100);
-    $ Valor_a_pagar = $ Valor_mercadoria- $ Desconto;
+    $desconto = $valor_mercadoria * ($porcentual_descont / 100);
+    $valor_pagar = $valor_mercadoria- $desconto;
 
-print "Valor descontado: $ Desconto \ n";
-print "Valor total de um pagamento: $ Valor_a_pagar";
+  print "Valor descontado: $desconto \ n";
+print "Valor total de um pagamento: $valor_pagar";
