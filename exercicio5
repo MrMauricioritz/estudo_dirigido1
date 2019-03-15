@@ -1,10 +1,10 @@
 <? php
 
-print "Distância da viagem (km):";
-$ Distancia = fgets (STDIN);
-print "Viagem média da viagem (km / h):";
-$ Velocidade_media = fgets (STDIN);
+print "distância da viagem em km:";
+    $distancia = fgets (STDIN);
+print "viagem média (km/h):";
+    $velocidade_media = fgets (STDIN);
 
-    $ Tempo_de_viagem = $ Distancia / $ Velocidade_media;
+    $tempo_viagem = $distancia/$velocidade_media;
 
-print "O tempo de viagem, caso a velocidade permaneça constante, será de: $ Tempo_de_viagem";
+print "O tempo de viagem, caso a velocidade permaneça constante, será de: $tempo_viagem";
