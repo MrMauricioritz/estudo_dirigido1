@@ -1,0 +1,17 @@
+<? php
+
+print "Digite uma quantidade de tempo (Dias):";
+$ Dias = fgets (STDIN);
+print "Uma quantidade de tempo:";
+$ Horas = fgets (STDIN);
+print "Digite uma quantidade de tempo (Minutos):";
+$ Minutos = fgets (STDIN);
+print "Digite uma quantidade de tempo (Segundos):";
+$ Segundos = fgets (STDIN);
+
+    $ Dias_para_segundos = $ Dias * 86400;
+    $ Horas_para_segundos = $ Horas * 360;
+    $ Minutos_para_segundos = $ Minutos * 60;
+    $ Segundos_totais = $ Dias_para_segundos + $ Horas_para_segundos + $ Minutos_para_segundos + $ Segundos;
+
+print "segundos totais: $ Segundos_totais";
