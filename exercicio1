@@ -1,0 +1,8 @@
+<? php
+
+print "Escreva uma medida em metros:";
+$ Medida_Metros = fgets (STDIN);
+
+$ Medida_Milimetros = $ Medida_Metros / 1000;
+
+print "Uma medida escolhida, em milimetros, equivalente a: $ Medida_Milimetros";
