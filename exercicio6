@@ -1,8 +1,8 @@
-<? php
+<?php
 
-print "Digite uma temperatura em graus Celsius:";
-  $ Celsius = fgets (STDIN);
+print "digite uma temperatura em celsius:";
+    $celsius = fgets (STDIN);
 
-    $ Fahrenheit = 9 * $ Celsius / 5 + 32;
+    $fahrenheit = 9 * $celsius / 5 + 32;
 
-print "A média escolhida, convertida para Fahrenheit, é: $ Fahrenheit";
+print "foi convertido para fahrenheit: $fahrenheit";
