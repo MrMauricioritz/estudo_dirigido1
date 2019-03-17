@@ -1,12 +1,12 @@
 <? php
 
-print "Quantidade de cigarros fumados por dia (em média):";
-$ Cigarros_fumados = fgets (STDIN);
-print "Quantidades de dias como fumante:";
-$ Dias_fumados = fgets (STDIN);
+print "média de cigarros fumados por dia:";
+    $cigarros_fumados = fgets (STDIN);
+print "dias como fumante:";
+    $dias_fumados = fgets (STDIN);
 
-    $ Minutos_por_dia = $ Cigarros_fumados * 10;
-    $ Dias_perdidos = $ Dias_fumados * $ Minutos_por_dia;
-    $ Dias_perdidos = round ($ Dias_perdidos / 1440);
+    $minutos_dia = $cigarros_fumados * 10;
+    $dias_perdidos = $dias_fumados * $miutos_dia;
+    $dias_perdidos = round ($dias_perdidos/1440);
 
-print "$ Dias_perdidos";
+print "$dias_perdidos";
