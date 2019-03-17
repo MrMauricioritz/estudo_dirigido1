@@ -5,8 +5,8 @@ print "valor da mercadoria:";
 print "porcentual do desconto:";
     $porcentual_descont = fgets (STDIN);
 
-    $desconto = $valor_mercadoria * ($porcentual_descont / 100);
+    $desconto = $valor_mercadoria * ($porcentual_descont/100);
     $valor_pagar = $valor_mercadoria- $desconto;
 
-  print "Valor descontado: $desconto \ n";
-print "Valor total de um pagamento: $valor_pagar";
+  print "Valor descontado: $desconto \n";
+    print "Valor total de um pagamento: $valor_pagar";
