@@ -1,10 +1,10 @@
 <? php
 
 imprimir "Km percorridos". '(R $ 0,15):';
-$ Km_percorridos = fgets (STDIN);
-imprimir "Dias alugados". '(R $ 60,00):';
-$ Dias_alugados = fgets (STDIN);
+     $Km_percorridos = fgets (STDIN);
+imprimir "dias alugados". '(R $ 60,00):';
+    $dias_alugados = fgets (STDIN);
 
-    $ Total_a_pagar = ($ Km_percorridos * 0.15) + ($ Dias_alugados * 60);
+     $total_pagar = ($Km_percorridos * 0.15) + ($dias_alugados * 60);
 
-print "O valor total a pagar é:". 'R $'. "$ Total_a_pagar";
+print "o valor total a ser pago é:". 'R$'. "$total_pagar";
